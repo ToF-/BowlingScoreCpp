@@ -23,8 +23,6 @@ void Scorer::add_bonuses(int roll) {
         score += roll;
         next_bonus--;
     }
-    if (next_bonus < 0)
-        next_bonus = 0;
     if (next_next_bonus) {
         next_bonus++;
         next_next_bonus--;
