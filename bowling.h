@@ -1,3 +1,4 @@
+// bowling.h
 class Scorer {
     public:
     int get_score();
